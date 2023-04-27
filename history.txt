@@ -1,0 +1,16 @@
+git status
+git add history.txt 
+ll
+git status
+git add README.md 
+git status
+git commit README.md -m "README commit"
+git config --global user.email "vksprdar@gmail.com"
+git config --global user.name "Vikas Paradkar"
+git status
+git push README.md -m "README.md push"
+clear
+git commit README.md -m "README.md upload"
+git push
+ll
+rm -rf history.txt
